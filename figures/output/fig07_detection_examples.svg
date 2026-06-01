@@ -2221,7 +2221,7 @@ z
     </g>
    </g>
    <g id="text_16">
-    <!-- a) Fault Type 3 (Detecton Drop-Out) -->
+    <!-- a) Fault Type 3 (Detection Drop-Out) -->
     <g style="fill: #262626" transform="translate(253.050469 15.935625) scale(0.12 -0.12)">
      <defs>
       <path id="Arial-BoldMT-61" d="M 1116 2306 
@@ -2633,18 +2633,19 @@ z
      <use xlink:href="#Arial-BoldMT-65" transform="translate(914.988281 0)"/>
      <use xlink:href="#Arial-BoldMT-63" transform="translate(970.603516 0)"/>
      <use xlink:href="#Arial-BoldMT-74" transform="translate(1026.21875 0)"/>
-     <use xlink:href="#Arial-BoldMT-6f" transform="translate(1059.519531 0)"/>
-     <use xlink:href="#Arial-BoldMT-6e" transform="translate(1120.603516 0)"/>
-     <use xlink:href="#Arial-BoldMT-20" transform="translate(1181.6875 0)"/>
-     <use xlink:href="#Arial-BoldMT-44" transform="translate(1209.470703 0)"/>
-     <use xlink:href="#Arial-BoldMT-72" transform="translate(1281.6875 0)"/>
-     <use xlink:href="#Arial-BoldMT-6f" transform="translate(1320.603516 0)"/>
-     <use xlink:href="#Arial-BoldMT-70" transform="translate(1381.6875 0)"/>
-     <use xlink:href="#Arial-BoldMT-2d" transform="translate(1442.771484 0)"/>
-     <use xlink:href="#Arial-BoldMT-4f" transform="translate(1476.072266 0)"/>
-     <use xlink:href="#Arial-BoldMT-75" transform="translate(1553.855469 0)"/>
-     <use xlink:href="#Arial-BoldMT-74" transform="translate(1614.939453 0)"/>
-     <use xlink:href="#Arial-BoldMT-29" transform="translate(1648.240234 0)"/>
+     <use xlink:href="#Arial-BoldMT-69" transform="translate(1059.519531 0)"/>
+     <use xlink:href="#Arial-BoldMT-6f" transform="translate(1087.299531 0)"/>
+     <use xlink:href="#Arial-BoldMT-6e" transform="translate(1148.383516 0)"/>
+     <use xlink:href="#Arial-BoldMT-20" transform="translate(1209.467500 0)"/>
+     <use xlink:href="#Arial-BoldMT-44" transform="translate(1237.250703 0)"/>
+     <use xlink:href="#Arial-BoldMT-72" transform="translate(1309.467500 0)"/>
+     <use xlink:href="#Arial-BoldMT-6f" transform="translate(1348.383516 0)"/>
+     <use xlink:href="#Arial-BoldMT-70" transform="translate(1409.467500 0)"/>
+     <use xlink:href="#Arial-BoldMT-2d" transform="translate(1470.551484 0)"/>
+     <use xlink:href="#Arial-BoldMT-4f" transform="translate(1503.852266 0)"/>
+     <use xlink:href="#Arial-BoldMT-75" transform="translate(1581.635469 0)"/>
+     <use xlink:href="#Arial-BoldMT-74" transform="translate(1642.719453 0)"/>
+     <use xlink:href="#Arial-BoldMT-29" transform="translate(1676.020234 0)"/>
     </g>
    </g>
    <g id="legend_1">
