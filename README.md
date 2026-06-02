@@ -1,8 +1,24 @@
-# Supplemental Materials for "Detecting outliers in PM2.5 air sensor networks during smoke events using information theory and machine learning"
+# Companion Materials: Outlier Detection in PM2.5 Air Sensor Networks
 
-### Abstract
-In recent years the use of air sensors has rapidly expanded across North America to measure fine particulate matter (PM2.5), particularly in response to increasing air quality impacts from wildland fire. With the benefit of enhanced spatial and temporal coverage, the scientific community and the public have come to rely on sensor networks as valuable sources of air quality information. With an increasing variety of sensor devices being deployed, there is a need to validate and harmonize PM2.5 data between different device types. While significant attention has been given to calibration and correction equations to improve the accuracy of a given sensor’s measurement, there is a need to develop tractable and generalizable methods of identifying malfunctioning or unreliable sensors, given the maintenance, siting and operation of many of these devices is unknown. In this paper, we propose a method of identifying outlier PM2.5 sensors, defined as those whose measurements deviate strongly from other local measurements due to hardware faults or to hyper-local environmental conditions that are not representative of typical ambient air quality conditions. While detecting outliers during typical conditions is a fairly straightforward task, detecting outliers during smoke events is challenging due to real, erratic shifts in PM2.5 concentrations. Here, we present a novel method of detecting outliers within sensor networks by combining measures from information theory and machine learning. Hourly PM2.5 measurements from various device types were collected for 11 unique smoke events across North America in 2024 and 2025, and a stratified sample of sensor data were randomly perturbed to simulate 5 commonly seen faults. In each of these cases, we assessed the performance of a detection function created by balancing the Shannon entropy of a network, and the information content of a sensor within its network. This function output and other information theoretic features were then input into a gradient-boosted decision tree to further explore automated outlier detection. We demonstrate that either of these methods, while trained on a semi-synthetic dataset, can act as a useful data validation procedure when applied to both real-time air quality reporting and retrospective analysis. 
+Companion materials for **"Detecting outliers in PM2.5 air sensor networks during smoke events using information theory and machine learning"** (Illson & Barkjohn, submitted to *Atmospheric Measurement Techniques*).
 
-### Notes:
-More data and methods can be made available upon request.
+The core methods are implemented in the [`elwood-spatial`](https://doi.org/10.5281/zenodo.18856271) package. This repository provides supporting materials to reproduce and extend the analysis.
 
+## Contents
+
+- `notebooks/` — reproducible example notebook
+- `models/` — pre-trained XGBoost models
+- `data/` — sample data subset from one smoke event
+- `site_event_characterization.pdf` — detailed site and event characterization (terrain, land cover, sensor network composition and connectivity, and smoke source attribution per event)
+
+## Data availability
+
+The underlying air quality data were obtained from sources with varying use policies and cannot be redistributed in full. Public-source data (e.g., AirNow) can be re-downloaded directly. The sample subset here is provided to demonstrate the workflow.
+
+## Citation
+
+Illson, S.: Companion Materials: Outlier Detection in PM2.5 Air Sensor Networks, Zenodo, https://doi.org/10.5281/zenodo.18897333.
+
+## License
+
+Released under CC-BY-4.0.

@@ -1,0 +1,9 @@
+{
+  "title": "Companion Materials: Outlier Detection in PM2.5 Air Sensor Networks",
+  "description": "Companion materials for \"Detecting outliers in PM2.5 air sensor networks during smoke events using information theory and machine learning\" (Illson & Barkjohn). Includes a reproducible example notebook, pre-trained XGBoost models, a sample data subset, and a site and event characterization document.",
+  "upload_type": "software",
+  "creators": [
+    { "name": "Illson, Stuart", "affiliation": "University of Washington" }
+  ],
+  "license": "cc-by-4.0"
+}
